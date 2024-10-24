@@ -1,0 +1,9 @@
+.page-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+$nav-bar-size: 19.5rem;
+$header-height: 5rem;
+
+$page-height: calc(100vh - $header-height);
