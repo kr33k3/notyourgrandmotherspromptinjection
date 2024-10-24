@@ -1,0 +1,11 @@
+## Alembic Things
+
+#### Generate Migration
+`alembic revision -m "migration name" --autogenerate`
+
+#### Apply Migration
+`alembic upgrade head`
+
+#### Things of note
+- Connection string is in db file and the engine is referenced in the env.py for alembic
+- run commands from source directory
